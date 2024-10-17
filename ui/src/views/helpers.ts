@@ -83,7 +83,7 @@ export function useTitle(...v: unknown[]) {
     }
 
     return () => {
-      document.title = "ChirpStack LoRaWAN® Network-Server";
+      document.title = "LoRaWAN® Network-Server";
     };
   }, [documentDefined, v]);
 }
